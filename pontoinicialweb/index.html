@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ponto Inicial Web | Sites Simples e Eficazes para Negócios Locais</title>
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Aponta para a pasta css/ -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo" aria-label="Ponto Inicial Web - Página inicial">
+        <img src="assets/img/logo.png" alt="" class="logo-img">
+        <span class="brand-name">
+          <span class="brand-name-main">Ponto Inicial</span>
+          <span class="brand-name-accent">WEB</span>
+        </span>
+      </a>
+      <nav class="nav-links">
+        <a href="#servicos">Serviços</a>
+        <a href="#simulador">Simulador</a>
+        <a href="#planos">Soluções</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="#contato" class="btn btn-primary btn-sm">Solicitar Orçamento</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="tag"><i class="fa-solid fa-rocket"></i> Ponto Inicial Web</span>
+        <h1>Soluções Profissionais de <span>Web Design</span></h1>
+        <p>Transformando suas ideias em presença digital de sucesso. Sites simples, rápidos e altamente eficazes para atrair mais clientes para o seu negócio local.</p>
+        <div class="hero-btns">
+          <a href="#simulador" class="btn btn-primary"><i class="fa-solid fa-calculator"></i> Simular Projeto</a>
+
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>+50</strong>
+            <span>Projetos Entregues</span>
+          </div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Clientes Satisfeitos</span>
+          </div>
+          <div class="stat">
+            <strong>Google</strong>
+            <span>Otimização SEO</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-preview">
+        <!-- Banner na pasta assets/img/ -->
+        <div class="banner-container">
+          <img src="assets/img/banner.jpg" alt="Ponto Inicial Web - Soluções Profissionais de Web Design" class="hero-banner-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Serviços Sob Medida</h2>
+        <p>Escolha a melhor estrutura para o momento atual da sua empresa</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Desenvolvimento Web</h3>
+          <p>Landing pages e sites institucionais completos, leves e otimizados para converter visitantes em clientes.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Design Exclusivo</li>
+            <li><i class="fa-solid fa-check"></i> Carregamento Ultra Rápido</li>
+            <li><i class="fa-solid fa-check"></i> Foco em Conversão no WhatsApp</li>
+          </ul>
+        </div>
+        <div class="card highlight">
+          <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>SEO & Marketing Digital</h3>
+          <p>Apareça para as pessoas certas quando elas procurarem pelos seus produtos ou serviços no Google.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Otimização para Negócios Locais</li>
+            <li><i class="fa-solid fa-check"></i> Estrutura Recomendada pelo Google</li>
+            <li><i class="fa-solid fa-check"></i> Google Meu Negócio Integrado</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <h3>Design Responsivo</h3>
+          <p>Seu site adaptado perfeitamente para celulares, tablets e computadores com navegação fluida.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Layout Mobile-First</li>
+            <li><i class="fa-solid fa-check"></i> Botões de Ação Rápida</li>
+            <li><i class="fa-solid fa-check"></i> Experiência Amigável</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- SIMULADOR DE ORÇAMENTO -->
+  <section id="simulador" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Monte seu Projeto</h2>
+        <p>Selecione as opções desejadas para enviar um orçamento prévio</p>
+      </div>
+      <div class="simulator-box">
+        <form id="simulatorForm">
+          <div class="sim-group">
+            <label><strong>1. Qual o tipo de site você precisa?</strong></label>
+            <div class="radio-options">
+              <label class="radio-card">
+                <input type="radio" name="siteType" value="Landing Page (Página Única)" checked>
+                <span>Landing Page (Página Única de Alta Conversão)</span>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="siteType" value="Site Institucional Completo">
+                <span>Site Institucional Multi-páginas</span>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="siteType" value="Catálogo / Loja Virtual">
+                <span>Catálogo Virtual / E-commerce</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="sim-group">
+            <label><strong>2. Recursos Opcionais:</strong></label>
+            <div class="checkbox-options">
+              <label class="check-card">
+                <input type="checkbox" name="addons" value="Blog / Notícias">
+                <span>Blog ou Área de Notícias</span>
+              </label>
+              <label class="check-card">
+                <input type="checkbox" name="addons" value="Otimização SEO Avançada">
+                <span>Otimização para Busca do Google (SEO)</span>
+              </label>
+              <label class="check-card">
+                <input type="checkbox" name="addons" value="Integração WhatsApp Direta">
+                <span>Botão WhatsApp Personalizado</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="sim-summary">
+            <h3>Resumo do Pedido:</h3>
+            <p id="summaryText">Tipo: <strong>Landing Page (Página Única)</strong></p>
+            <p class="negotiable-tag"><i class="fa-solid fa-handshake"></i> Valores sob consulta / Negociável</p>
+            <button type="button" class="btn btn-whatsapp" onclick="sendToWhatsapp()">
+              <i class="fa-brands fa-whatsapp"></i> Negociar via WhatsApp
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANOS / SOLUÇÕES -->
+  <section id="planos" class="section bg-light">
+    <div class="container">
+      <div class="section-title">
+        <h2>Soluções para seu Negócio</h2>
+        <p>Propostas flexíveis e adequadas à necessidade da sua empresa</p>
+      </div>
+      <div class="plans-grid">
+        <div class="plan-card">
+          <h3>Essencial</h3>
+          <div class="price">Sob Consulta</div>
+          <p class="price-subtitle">Valores negociáveis</p>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> Landing Page Única</li>
+            <li><i class="fa-solid fa-check"></i> Design Responsivo (Mobile)</li>
+            <li><i class="fa-solid fa-check"></i> Botão WhatsApp Integrado</li>
+            <li><i class="fa-solid fa-check"></i> Entrega Rápida</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline full-width">Solicitar Proposta</a>
+        </div>
+        <div class="plan-card popular">
+          <span class="plan-badge">Mais Pedido</span>
+          <h3>Profissional</h3>
+          <div class="price">Sob Consulta</div>
+          <p class="price-subtitle">Valores negociáveis</p>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> Site Completo (Até 5 páginas)</li>
+            <li><i class="fa-solid fa-check"></i> Galeria de Serviços / Portfólio</li>
+            <li><i class="fa-solid fa-check"></i> Formulário de Contato Direto</li>
+            <li><i class="fa-solid fa-check"></i> Otimização Básica para Google</li>
+          </ul>
+          <a href="#contato" class="btn btn-primary full-width">Solicitar Proposta</a>
+        </div>
+        <div class="plan-card">
+          <h3>Personalizado</h3>
+          <div class="price">Sob Consulta</div>
+          <p class="price-subtitle">Valores negociáveis</p>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> Projeto 100% Customizado</li>
+            <li><i class="fa-solid fa-check"></i> Catálogo / Loja Virtual</li>
+            <li><i class="fa-solid fa-check"></i> Otimização Avançada SEO</li>
+            <li><i class="fa-solid fa-check"></i> Suporte Prioritário</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline full-width">Solicitar Proposta</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Fale Conosco</h2>
+        <p>Tire suas dúvidas ou peça uma reunião sem compromisso</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Pronto para o Ponto Inicial da sua marca?</h3>
+          <p>Envie uma mensagem e retornaremos o mais rápido possível para alinhar os detalhes e proposta do seu site.</p>
+          <div class="info-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <strong>WhatsApp:</strong>
+              <p>(11) 96173-2582</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>E-mail:</strong>
+              <p>pontoinicialweb@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Nome / Empresa</label>
+            <input type="text" id="name" required placeholder="Seu nome ou nome da empresa">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail ou WhatsApp</label>
+            <input type="text" id="email" required placeholder="Seu e-mail ou número de contato">
+          </div>
+          <div class="form-group">
+            <label for="message">Como podemos te ajudar?</label>
+            <textarea id="message" rows="4" required placeholder="Conte um pouco sobre o projeto que precisa..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Ponto Inicial Web - Sites Simples e Eficazes para o seu Negócio Local.</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT BUTTON -->
+  <a href="https://wa.me/5511961732582?text=Olá!%20Vim%20pelo%20site%20da%20Ponto%20Inicial%20Web%20e%20gostaria%20de%20um%20orçamento." class="whatsapp-float" target="_blank" aria-label="Contato via WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Aponta para a pasta js/ -->
+  <script src="js/script.js"></script>
+</body>
+</html>
